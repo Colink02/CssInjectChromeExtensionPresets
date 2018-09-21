@@ -1,12 +1,12 @@
 body, html {
  background: black !important;
 }
-::-webkit-scrollbar-track {
+html::-webkit-scrollbar-track {
     background: light-blue !important; 
 }
-::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
     background: #b9ef43 !important; 
 }
-::-webkit-scrollbar-thumb:hover {
+html::-webkit-scrollbar-thumb:hover {
    background: #89d3af !important; 
 }
