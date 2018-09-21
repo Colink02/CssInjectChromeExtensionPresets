@@ -2,11 +2,11 @@ body, html {
  background: black !important;
 }
 body::-webkit-scrollbar-track {
-    background: light-blue !important; 
+    background-color: light-blue !important; 
 }
 body::-webkit-scrollbar-thumb {
-    background: #b9ef43 !important; 
+    background-color: #b9ef43 !important; 
 }
 body::-webkit-scrollbar-thumb:hover {
-   background: #89d3af !important; 
+   background-color: #89d3af !important; 
 }
