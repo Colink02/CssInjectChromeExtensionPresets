@@ -14,6 +14,6 @@ body, html {
 ::-webkit-scrollbar-corner {
     background: #42f4b9;
 }
-blocked.com-default.ws##.bypassCont {
-	content:url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Exclamation.svg");	
+.bypassCont {
+	content:url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Exclamation.svg") !important;	
 }
