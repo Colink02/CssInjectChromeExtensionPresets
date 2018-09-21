@@ -1,3 +1,12 @@
 body, html, div {
- background: red !important; 
+ background: black !important;
+}
+::-webkit-scrollbar-track {
+    background: light-blue !important; 
+}
+::-webkit-scrollbar-thumb {
+    background: #b9ef43 !important; 
+}
+::-webkit-scrollbar-thumb:hover {
+   background: #89d3af !important; 
 }
