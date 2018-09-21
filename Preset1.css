@@ -14,6 +14,6 @@ body, html {
 ::-webkit-scrollbar-corner {
     background: #42f4b9;
 }
-.bypassCont {
+.content img {
 	content:url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Exclamation.svg") !important;	
 }
