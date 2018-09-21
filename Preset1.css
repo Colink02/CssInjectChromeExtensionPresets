@@ -1,6 +1,9 @@
 body, html {
  background: black !important;
 }
+body::-webkit-scrollbar {
+    width: 0.2em;
+}
 body::-webkit-scrollbar-track {
     background-color: light-blue !important; 
 }
