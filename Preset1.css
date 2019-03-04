@@ -7,7 +7,10 @@ body, html {
 	background-color: mediumseagreen;
     }
 ::-webkit-scrollbar-thumb {
-    background: #393812;
+    animation-name: color;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-duration: 5s;
     -webkit-border-radius: 1ex;
     -webkit-box-shadow: 0px 1px 2px dodgerblue;
 }
@@ -16,4 +19,9 @@ body, html {
 }
 .content img {
 	content:url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Exclamation.svg") !important;	
+}
+
+@keyframes color {
+  from {background-color: dodgerblue;}
+  to {background-color: red;}
 }
