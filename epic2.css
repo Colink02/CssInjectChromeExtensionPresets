@@ -1,0 +1,9 @@
+body {
+  background-image: url('https://cdn.mos.cms.futurecdn.net/deaceNXy23NF8VsCrwZPgn.jpg');
+}
+.outer .middle .content .bypassCont {
+  content: 'Hello Gamer';
+}
+.fa .fa-exclamation-triangle {
+  background-image: url('https://i.redd.it/dm2kxy5bmth21.png') !important;
+}
