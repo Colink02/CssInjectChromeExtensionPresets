@@ -1,0 +1,11 @@
+html, body, div {
+  will-change: transform !important;
+	animation: fall 45s infinite linear !important;
+}
+@keyframes fall {
+  0%   {left:0%; top:0%;}
+  25%  {left:200%; top:0%;}
+  50%  {left:200%; top:200%;}
+  75%  {left:0%; top:200%;}
+  100% {left:0%; top:0%;}
+}
